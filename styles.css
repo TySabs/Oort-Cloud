@@ -1,0 +1,56 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.body-wrapper {
+    text-align: center;
+    background: url(assets/images/space.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 60px 0 0 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.inner-wrapper-bg {
+    margin: 60px 0 0 0;
+    padding: 2px 10px;
+    color: #fff;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* .construction-wrapper {
+    color: #fff;
+    background: url(assets/images/comet.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+} */
+
+.accordion-wwd {
+    margin: 10px auto;
+    width: 40%;
+}
+
+.wwd-wrapper {
+    margin: 40px 0 0 0;
+}
+
+.btn-wwd {
+    color: #fff;
+    padding: 6px 200px;
+}
+
+.wwd-item {
+    margin: 0 auto;
+    width: 25%;
+}
