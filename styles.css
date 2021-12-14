@@ -1,8 +1,3 @@
-html {
-    margin: 0;
-    padding: 0;
-}
-
 .body-wrapper {
     text-align: center;
     background: url(assets/images/space.png) no-repeat center center fixed; 
@@ -24,18 +19,6 @@ html {
     border-radius: 10px;
 }
 
-/* .construction-wrapper {
-    color: #fff;
-    background: url(assets/images/comet.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-} */
-
 .accordion-wwd {
     margin: 10px auto;
     width: 40%;
@@ -45,12 +28,21 @@ html {
     margin: 40px 0 0 0;
 }
 
-.btn-wwd {
-    color: #fff;
-    padding: 6px 200px;
-}
+@media screen and (max-device-width: 550px) {
+    .title-header {
+        font-size: 56px;
+    }
+    
+    .accordion-button {
+        font-size: 28px;
+    }
 
-.wwd-item {
-    margin: 0 auto;
-    width: 25%;
+    .accordion-body {
+        font-size: 22px;
+    }
+
+    .accordion-wwd {
+        margin: 10px auto;
+        width: 80%;
+    }
 }
